@@ -1,0 +1,9 @@
+[build]
+  publish = "out"
+  command = "npm install --force && next build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[build.processing]
+  skip_processing = true
